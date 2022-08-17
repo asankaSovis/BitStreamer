@@ -1,0 +1,11 @@
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\bin\Debug\Transciever.exe.config
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\bin\Debug\Transciever.exe
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\bin\Debug\Transciever.pdb
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.Properties.Resources.resources
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.csproj.GenerateResource.cache
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.csproj.CoreCompileInputs.cache
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.exe
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.pdb
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmMain.resources
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmReport.resources
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmAbout.resources
