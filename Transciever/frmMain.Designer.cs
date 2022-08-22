@@ -108,9 +108,9 @@ namespace Transciever
             this.tssMode = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmUni = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmBi = new System.Windows.Forms.ToolStripMenuItem();
-            this.tltMain = new System.Windows.Forms.ToolTip(this.components);
-            this.tssEachGenerate = new System.Windows.Forms.ToolStripMenuItem();
             this.tssSep3 = new System.Windows.Forms.ToolStripSeparator();
+            this.tssEachGenerate = new System.Windows.Forms.ToolStripMenuItem();
+            this.tltMain = new System.Windows.Forms.ToolTip(this.components);
             this.stsMain.SuspendLayout();
             this.grpTest.SuspendLayout();
             this.tlpTest.SuspendLayout();
@@ -1147,7 +1147,7 @@ namespace Transciever
             // 
             this.tsmUni.CheckOnClick = true;
             this.tsmUni.Name = "tsmUni";
-            this.tsmUni.Size = new System.Drawing.Size(180, 22);
+            this.tsmUni.Size = new System.Drawing.Size(148, 22);
             this.tsmUni.Text = "Unidirectional";
             this.tsmUni.ToolTipText = "Communication happens only in one direction";
             this.tsmUni.CheckedChanged += new System.EventHandler(this.tsmUni_CheckedChanged);
@@ -1156,15 +1156,16 @@ namespace Transciever
             // 
             this.tsmBi.CheckOnClick = true;
             this.tsmBi.Name = "tsmBi";
-            this.tsmBi.Size = new System.Drawing.Size(180, 22);
+            this.tsmBi.Size = new System.Drawing.Size(148, 22);
             this.tsmBi.Text = "Bidirectional";
             this.tsmBi.ToolTipText = "Communication happens in both directions";
             this.tsmBi.CheckedChanged += new System.EventHandler(this.tsmBi_CheckedChanged);
             this.tsmBi.Click += new System.EventHandler(this.tsmBi_Click);
             // 
-            // tltMain
+            // tssSep3
             // 
-            this.tltMain.ToolTipTitle = "BitStreamer";
+            this.tssSep3.Name = "tssSep3";
+            this.tssSep3.Size = new System.Drawing.Size(187, 6);
             // 
             // tssEachGenerate
             // 
@@ -1176,10 +1177,9 @@ namespace Transciever
             this.tssEachGenerate.Text = "Generate for Each Test";
             this.tssEachGenerate.ToolTipText = "When checked, a new random bit stream will be generated for each test pass";
             // 
-            // tssSep3
+            // tltMain
             // 
-            this.tssSep3.Name = "tssSep3";
-            this.tssSep3.Size = new System.Drawing.Size(187, 6);
+            this.tltMain.ToolTipTitle = "BitStreamer";
             // 
             // frmMain
             // 
