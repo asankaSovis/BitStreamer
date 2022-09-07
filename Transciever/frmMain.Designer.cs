@@ -110,6 +110,8 @@ namespace Transciever
             this.tsmBi = new System.Windows.Forms.ToolStripMenuItem();
             this.tssSep3 = new System.Windows.Forms.ToolStripSeparator();
             this.tssEachGenerate = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmPositioning = new System.Windows.Forms.ToolStripMenuItem();
             this.tltMain = new System.Windows.Forms.ToolTip(this.components);
             this.stsMain.SuspendLayout();
             this.grpTest.SuspendLayout();
@@ -1126,7 +1128,9 @@ namespace Transciever
             this.tssOptions.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tssMode,
             this.tssSep3,
-            this.tssEachGenerate});
+            this.tssEachGenerate,
+            this.toolStripSeparator1,
+            this.tsmPositioning});
             this.tssOptions.Image = ((System.Drawing.Image)(resources.GetObject("tssOptions.Image")));
             this.tssOptions.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssOptions.Name = "tssOptions";
@@ -1139,7 +1143,7 @@ namespace Transciever
             this.tsmUni,
             this.tsmBi});
             this.tssMode.Name = "tssMode";
-            this.tssMode.Size = new System.Drawing.Size(190, 22);
+            this.tssMode.Size = new System.Drawing.Size(237, 22);
             this.tssMode.Text = "Directional Mode";
             this.tssMode.ToolTipText = "Direction at which communication happens";
             // 
@@ -1147,7 +1151,8 @@ namespace Transciever
             // 
             this.tsmUni.CheckOnClick = true;
             this.tsmUni.Name = "tsmUni";
-            this.tsmUni.Size = new System.Drawing.Size(148, 22);
+            this.tsmUni.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Up)));
+            this.tsmUni.Size = new System.Drawing.Size(205, 22);
             this.tsmUni.Text = "Unidirectional";
             this.tsmUni.ToolTipText = "Communication happens only in one direction";
             this.tsmUni.CheckedChanged += new System.EventHandler(this.tsmUni_CheckedChanged);
@@ -1156,7 +1161,8 @@ namespace Transciever
             // 
             this.tsmBi.CheckOnClick = true;
             this.tsmBi.Name = "tsmBi";
-            this.tsmBi.Size = new System.Drawing.Size(148, 22);
+            this.tsmBi.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Down)));
+            this.tsmBi.Size = new System.Drawing.Size(205, 22);
             this.tsmBi.Text = "Bidirectional";
             this.tsmBi.ToolTipText = "Communication happens in both directions";
             this.tsmBi.CheckedChanged += new System.EventHandler(this.tsmBi_CheckedChanged);
@@ -1165,7 +1171,7 @@ namespace Transciever
             // tssSep3
             // 
             this.tssSep3.Name = "tssSep3";
-            this.tssSep3.Size = new System.Drawing.Size(187, 6);
+            this.tssSep3.Size = new System.Drawing.Size(234, 6);
             // 
             // tssEachGenerate
             // 
@@ -1173,9 +1179,25 @@ namespace Transciever
             this.tssEachGenerate.CheckOnClick = true;
             this.tssEachGenerate.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tssEachGenerate.Name = "tssEachGenerate";
-            this.tssEachGenerate.Size = new System.Drawing.Size(190, 22);
+            this.tssEachGenerate.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
+            this.tssEachGenerate.Size = new System.Drawing.Size(237, 22);
             this.tssEachGenerate.Text = "Generate for Each Test";
             this.tssEachGenerate.ToolTipText = "When checked, a new random bit stream will be generated for each test pass";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(234, 6);
+            // 
+            // tsmPositioning
+            // 
+            this.tsmPositioning.CheckOnClick = true;
+            this.tsmPositioning.Name = "tsmPositioning";
+            this.tsmPositioning.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.tsmPositioning.Size = new System.Drawing.Size(237, 22);
+            this.tsmPositioning.Text = "Transmitter Positioning";
+            this.tsmPositioning.ToolTipText = "Open positioning window for the transmitter";
+            this.tsmPositioning.Click += new System.EventHandler(this.tsmPositioning_Click);
             // 
             // tltMain
             // 
@@ -1305,6 +1327,8 @@ namespace Transciever
         private System.Windows.Forms.ToolStripMenuItem tsmBi;
         private System.Windows.Forms.ToolStripSeparator tssSep3;
         private System.Windows.Forms.ToolStripMenuItem tssEachGenerate;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem tsmPositioning;
     }
 }
 

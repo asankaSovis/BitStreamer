@@ -36,6 +36,7 @@ namespace Transciever
         Byte[] recievedBytes = null;
 
         frmMain partner = null;
+        frmPositioning positioner = null;
 
         bool slaveMode = false;
 
@@ -96,6 +97,7 @@ namespace Transciever
             tsmBi.Image = Image.FromFile("resources/bi.png");
             tsmUni.Image = Image.FromFile("resources/uni.png");
             tssEachGenerate.Image = Image.FromFile("resources/generate.png");
+            tsmPositioning.Image = Image.FromFile("resources/position.png");
 
             btnTransConnect.Image = btnRecConnect.Image = connect[0];
             tsmDisconnect.Image = connect[0];
@@ -783,6 +785,30 @@ namespace Transciever
         {
             if (tsmBi.Checked)
                 partner.nudTest.Value = nudTest.Value;
+        }
+
+        private void tsmPositioning_Click(object sender, EventArgs e)
+        {
+            if (tsmPositioning.Checked)
+            {
+                if (positioner == null)
+                {
+                    positioner = new frmPositioning(this);
+                    positioner.Show();
+                }
+            }
+            else
+            {
+                positioner.Close();
+                positioner.Dispose();
+                positioner = null;
+            }
+        }
+
+        public void closePositioner()
+        {
+            tsmPositioning.Checked = false;
+            positioner = null;
         }
     }
 }
