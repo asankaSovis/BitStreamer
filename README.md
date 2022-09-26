@@ -36,4 +36,6 @@ BitStreamer is a data streaming software developed for communication engineers t
 > ![Test](https://user-images.githubusercontent.com/46389631/188798393-e7b62b39-5cf8-4e23-b63d-ce76b6f888e1.png)
 > Running a test
 
+> [![BitStreamer Demonstration Video](https://user-images.githubusercontent.com/46389631/192271988-aa3594b8-4fc0-4183-b912-0d8810d8a7cf.png)](https://youtu.be/pd4paySvcpE)
+
 `© 2022 Asanka Sovis`
