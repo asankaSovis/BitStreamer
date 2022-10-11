@@ -4,12 +4,12 @@
 
 ---
 
-BitStreamer is a data streaming software developed for communication engineers to send a bit stream from one COM port and check how many bits can be recieved back from another COM port. Here, the bitstream from the first COM port can be sent through a communication medium to check the efficiency of communication medium. 
+**BitStreamer** is a data streaming software developed for communication engineers to send a bit stream from one COM port and check how many bits can be recieved back from another COM port. Here, the bitstream from the first COM port can be sent through a communication medium to check the efficiency of communication medium. 
 
 > ![BitStreamer Application](https://user-images.githubusercontent.com/46389631/188698470-379a8334-5998-4bc5-a378-e14e2e07d0ac.png)
 > Main window of the application
 
-## Features
+## 🧭 Features
 
 - Send and recieve bits from one port to the other
 - Automatic generation of random bitstreams
@@ -19,7 +19,7 @@ BitStreamer is a data streaming software developed for communication engineers t
 > ![image](https://user-images.githubusercontent.com/46389631/188799569-0fccea86-e9af-410e-a50d-51027b8333a4.png)
 > Bidirectional mode
 
-## Usage
+## 🤳 Usage
 
 1. Open the application.
 2. Go to `Options > Directional Mode` and choose `Bidirectional Mode` if needed.
@@ -36,7 +36,7 @@ BitStreamer is a data streaming software developed for communication engineers t
 > ![Test](https://user-images.githubusercontent.com/46389631/188798393-e7b62b39-5cf8-4e23-b63d-ce76b6f888e1.png)
 > Running a test
 
-## Demonstration
+## 📊 Demonstration
 
 > [![BitStreamer Demonstration Video](https://user-images.githubusercontent.com/46389631/192271988-aa3594b8-4fc0-4183-b912-0d8810d8a7cf.png)](https://youtu.be/pd4paySvcpE)
 > Demonstration video of the final product
