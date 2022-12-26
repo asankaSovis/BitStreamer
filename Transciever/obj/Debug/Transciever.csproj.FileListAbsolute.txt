@@ -9,5 +9,7 @@ C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj
 C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmMain.resources
 C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmReport.resources
 C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmAbout.resources
-C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.csproj.AssemblyReference.cache
 C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmGraph.resources
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.frmPositioning.resources
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.csproj.AssemblyReference.cache
+C:\Users\akash\Documents\Visual Studio 2019\Projects\Transciever\Transciever\obj\Debug\Transciever.csproj.SuggestedBindingRedirects.cache
