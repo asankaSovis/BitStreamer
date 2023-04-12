@@ -41,4 +41,4 @@
 > [![BitStreamer Demonstration Video](https://user-images.githubusercontent.com/46389631/192271988-aa3594b8-4fc0-4183-b912-0d8810d8a7cf.png)](https://youtu.be/pd4paySvcpE)
 > Demonstration video of the final product
 
-`© 2022 Asanka Sovis`
+`© 2023 Asanka Sovis`
