@@ -33,11 +33,11 @@ namespace Transciever
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReport));
             this.sfdMain = new System.Windows.Forms.SaveFileDialog();
             this.stsMain = new System.Windows.Forms.StatusStrip();
+            this.tssMain = new System.Windows.Forms.ToolStripStatusLabel();
             this.tlpMain = new System.Windows.Forms.TableLayoutPanel();
             this.rtbMain = new System.Windows.Forms.RichTextBox();
             this.tlpTools = new System.Windows.Forms.TableLayoutPanel();
             this.btnSave = new System.Windows.Forms.Button();
-            this.tssMain = new System.Windows.Forms.ToolStripStatusLabel();
             this.tltMain = new System.Windows.Forms.ToolTip(this.components);
             this.stsMain.SuspendLayout();
             this.tlpMain.SuspendLayout();
@@ -60,6 +60,13 @@ namespace Transciever
             this.stsMain.Size = new System.Drawing.Size(518, 22);
             this.stsMain.TabIndex = 1;
             this.stsMain.Text = "Test Result";
+            // 
+            // tssMain
+            // 
+            this.tssMain.Name = "tssMain";
+            this.tssMain.Size = new System.Drawing.Size(503, 17);
+            this.tssMain.Spring = true;
+            this.tssMain.Text = "Report Generated";
             // 
             // tlpMain
             // 
@@ -112,13 +119,6 @@ namespace Transciever
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // tssMain
-            // 
-            this.tssMain.Name = "tssMain";
-            this.tssMain.Size = new System.Drawing.Size(503, 17);
-            this.tssMain.Spring = true;
-            this.tssMain.Text = "Report Generated";
-            // 
             // tltMain
             // 
             this.tltMain.ToolTipTitle = "BitStreamer";
@@ -133,6 +133,7 @@ namespace Transciever
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(534, 524);
             this.Name = "frmReport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "BitStreamer - Test Results";
