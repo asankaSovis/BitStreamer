@@ -112,6 +112,7 @@ namespace Transciever
             this.tssEachGenerate = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmPositioning = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmFourBit = new System.Windows.Forms.ToolStripMenuItem();
             this.tltMain = new System.Windows.Forms.ToolTip(this.components);
             this.stsMain.SuspendLayout();
             this.grpTest.SuspendLayout();
@@ -1130,7 +1131,8 @@ namespace Transciever
             this.tssSep3,
             this.tssEachGenerate,
             this.toolStripSeparator1,
-            this.tsmPositioning});
+            this.tsmPositioning,
+            this.tsmFourBit});
             this.tssOptions.Image = ((System.Drawing.Image)(resources.GetObject("tssOptions.Image")));
             this.tssOptions.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssOptions.Name = "tssOptions";
@@ -1192,12 +1194,24 @@ namespace Transciever
             // tsmPositioning
             // 
             this.tsmPositioning.CheckOnClick = true;
+            this.tsmPositioning.Enabled = false;
             this.tsmPositioning.Name = "tsmPositioning";
             this.tsmPositioning.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.tsmPositioning.Size = new System.Drawing.Size(237, 22);
             this.tsmPositioning.Text = "Transmitter Positioning";
-            this.tsmPositioning.ToolTipText = "Open positioning window for the transmitter";
+            this.tsmPositioning.ToolTipText = "Open positioning window for the transmitter\r\n(This feature is not available)";
             this.tsmPositioning.Click += new System.EventHandler(this.tsmPositioning_Click);
+            // 
+            // tsmFourBit
+            // 
+            this.tsmFourBit.CheckOnClick = true;
+            this.tsmFourBit.Name = "tsmFourBit";
+            this.tsmFourBit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D4)));
+            this.tsmFourBit.Size = new System.Drawing.Size(237, 22);
+            this.tsmFourBit.Text = "Four-Bit Mode";
+            this.tsmFourBit.ToolTipText = "Only four bits are being transmitted and recieved (Only available in Unidirection" +
+    "al Mode)";
+            this.tsmFourBit.Click += new System.EventHandler(this.tsmFourBit_Click);
             // 
             // tltMain
             // 
@@ -1212,6 +1226,7 @@ namespace Transciever
             this.Controls.Add(this.tlpMain);
             this.Controls.Add(this.stsMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(899, 398);
             this.Name = "frmMain";
             this.Text = "BitStreamer - Bitstream Emulator";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
@@ -1329,6 +1344,7 @@ namespace Transciever
         private System.Windows.Forms.ToolStripMenuItem tssEachGenerate;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem tsmPositioning;
+        private System.Windows.Forms.ToolStripMenuItem tsmFourBit;
     }
 }
 

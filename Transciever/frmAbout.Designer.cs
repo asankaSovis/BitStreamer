@@ -136,7 +136,7 @@ namespace Transciever
             this.lblCopyright.Name = "lblCopyright";
             this.lblCopyright.Size = new System.Drawing.Size(432, 20);
             this.lblCopyright.TabIndex = 2;
-            this.lblCopyright.Text = "© Asanka Sovis (2022)";
+            this.lblCopyright.Text = "© Asanka Sovis (2023)";
             this.lblCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tlpButtons
@@ -178,7 +178,9 @@ namespace Transciever
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(617, 266);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(617, 266);
             this.Name = "frmAbout";
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;

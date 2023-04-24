@@ -98,6 +98,7 @@ namespace Transciever
             tsmUni.Image = Image.FromFile("resources/uni.png");
             tssEachGenerate.Image = Image.FromFile("resources/generate.png");
             tsmPositioning.Image = Image.FromFile("resources/position.png");
+            tsmFourBit.Image = Image.FromFile("resources/four-bit.png");
 
             btnTransConnect.Image = btnRecConnect.Image = connect[0];
             tsmDisconnect.Image = connect[0];
@@ -150,6 +151,14 @@ namespace Transciever
             {
                 bit.Checked = (rnd.Next(0, 10) < 5);
             }
+
+            if (tsmFourBit.Checked)
+            {
+                chkOne.Checked = chkTwo.Checked = chkThree.Checked = chkFour.Checked = false;
+            }
+
+            chkOne.Enabled = chkTwo.Enabled = chkThree.Enabled = chkFour.Enabled = !(tsmFourBit.Checked);
+            lblRec1.Enabled = lblRec2.Enabled = lblRec3.Enabled = lblRec4.Enabled = !(tsmFourBit.Checked);
         }
 
         private void cmbCombo_SelectedIndexChanged(object sender, EventArgs e)
@@ -244,6 +253,9 @@ namespace Transciever
             }
 
             btnSend.Enabled = value;
+
+            chkOne.Enabled = chkTwo.Enabled = chkThree.Enabled = chkFour.Enabled = !(tsmFourBit.Checked);
+            lblRec1.Enabled = lblRec2.Enabled = lblRec3.Enabled = lblRec4.Enabled = !(tsmFourBit.Checked);
         }
 
         private void sendData(byte[] bits)
@@ -683,10 +695,16 @@ namespace Transciever
             {
                 bit.Enabled = value;
             }
+
+            chkOne.Enabled = chkTwo.Enabled = chkThree.Enabled = chkFour.Enabled = !(tsmFourBit.Checked);
+            lblRec1.Enabled = lblRec2.Enabled = lblRec3.Enabled = lblRec4.Enabled = !(tsmFourBit.Checked);
         }
 
         private void bidirectionalMode()
         {
+            tsmFourBit.Checked = false;
+            tsmFourBit.Enabled = false;
+
             reloadPorts();
 
             cmbRecPort.Enabled = false;
@@ -704,6 +722,8 @@ namespace Transciever
 
         private void unidirectionalMode()
         {
+            tsmFourBit.Enabled = true;
+
             reloadPorts();
 
             cmbRecPort.Enabled = true;
@@ -809,6 +829,21 @@ namespace Transciever
         {
             tsmPositioning.Checked = false;
             positioner = null;
+        }
+
+        private void tsmFourBit_Click(object sender, EventArgs e)
+        {
+            chkOne.Enabled = chkTwo.Enabled = chkThree.Enabled = chkFour.Enabled = !(tsmFourBit.Checked);
+            lblRec1.Enabled = lblRec2.Enabled = lblRec3.Enabled = lblRec4.Enabled = !(tsmFourBit.Checked);
+
+            if (tsmFourBit.Checked)
+            {
+                chkOne.Checked = chkTwo.Checked = chkThree.Checked = chkFour.Checked = false;
+            }
+            else
+            {
+                randomBits();
+            }
         }
     }
 }

@@ -41,4 +41,22 @@
 > [![BitStreamer Demonstration Video](https://user-images.githubusercontent.com/46389631/192271988-aa3594b8-4fc0-4183-b912-0d8810d8a7cf.png)](https://youtu.be/pd4paySvcpE)
 > Demonstration video of the final product
 
+## 📦 Releases
+
+#### Version 1.2 [24/04/2023]
+
+[BitStreamer Version 1.2](https://github.com/asankaSovis/BitStreamer/releases/tag/v1.2)
+
+> MD5: f22d8ec6f542e1f2a885948d8e3e2ce0
+>
+> SHA1: 7cb83ffde5832c0b959dee669e8304935a55cf2b
+>
+> SHA256: db41cb8486ce6473985a220dce966a24473509500aac433584f320b542366f77
+
+## 🛠️ Fixes and Features for the Next Release
+
+- Suggest new features
+
+*📝 NOTE: Throughout the application, Passcode refers to the root password set for the password manager and Password refers to the password of the application.*
+
 `© 2023 Asanka Sovis`

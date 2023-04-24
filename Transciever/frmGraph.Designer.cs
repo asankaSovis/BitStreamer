@@ -59,6 +59,7 @@ namespace Transciever
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.chtMain);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "frmGraph";
             this.Text = "frmGraph";
             this.Load += new System.EventHandler(this.frmGraph_Load);
