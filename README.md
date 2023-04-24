@@ -45,7 +45,7 @@
 
 #### Version 1.2 [24/04/2023]
 
-[BitStreamer Version 1.2](www.google.com)
+[BitStreamer Version 1.2](https://github.com/asankaSovis/BitStreamer/releases/tag/v1.2)
 
 > MD5: f22d8ec6f542e1f2a885948d8e3e2ce0
 >
