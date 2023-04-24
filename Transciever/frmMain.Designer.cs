@@ -1194,11 +1194,12 @@ namespace Transciever
             // tsmPositioning
             // 
             this.tsmPositioning.CheckOnClick = true;
+            this.tsmPositioning.Enabled = false;
             this.tsmPositioning.Name = "tsmPositioning";
             this.tsmPositioning.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.tsmPositioning.Size = new System.Drawing.Size(237, 22);
             this.tsmPositioning.Text = "Transmitter Positioning";
-            this.tsmPositioning.ToolTipText = "Open positioning window for the transmitter";
+            this.tsmPositioning.ToolTipText = "Open positioning window for the transmitter\r\n(This feature is not available)";
             this.tsmPositioning.Click += new System.EventHandler(this.tsmPositioning_Click);
             // 
             // tsmFourBit

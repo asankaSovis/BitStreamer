@@ -120,7 +120,7 @@
   <data name="lblAbout.Text" xml:space="preserve">
     <value>BitStreamer is an application that can send an 8 bit bit stream through a port and listen to it returning through another port. The application can then compare the sent stream with the recieved one to check for errors that occured in between. This application can be useful in testing communication mediums.
 
-Version 1.1</value>
+Version 1.2</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
