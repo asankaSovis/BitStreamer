@@ -57,6 +57,4 @@
 
 - Suggest new features
 
-*📝 NOTE: Throughout the application, Passcode refers to the root password set for the password manager and Password refers to the password of the application.*
-
 `© 2023 Asanka Sovis`
