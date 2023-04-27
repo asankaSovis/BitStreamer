@@ -4,6 +4,8 @@
 
 ---
 
+*💸 Please consider [donating](https://www.paypal.com/donate/?hosted_button_id=4EWXTWQ9FUFLA) on Paypal to keep this project alive.*
+
 **BitStreamer** is a data streaming software developed for communication engineers to send a bit stream from one COM port and check how many bits can be recieved back from another COM port. Here, the bitstream from the first COM port can be sent through a communication medium to check the efficiency of communication medium. 
 
 > ![BitStreamer Application](https://user-images.githubusercontent.com/46389631/188698470-379a8334-5998-4bc5-a378-e14e2e07d0ac.png)
